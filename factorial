@@ -1,0 +1,29 @@
+//program:Factorial of a number
+//Algorithm
+//step 1:start
+//step 2:Read number n
+//step 3:Initialize fact=1
+//step 4:Repeat from i=1 to n
+//step 5:fact=fact*i
+//step 6:print fact
+//step 7:stop
+
+//Time complexity:0(n)
+//space complexity:0(1)
+#include<stdio.h>
+int main() {
+  int n,i;
+  long long fact=1;
+
+  printf("enter a number:");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++){
+  fact=fact*i;
+  }
+  printf("Factorial=||d",fact);
+  return 0;
+  }
+  
+
+
+
